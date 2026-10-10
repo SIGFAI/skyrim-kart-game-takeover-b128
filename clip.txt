@@ -1,0 +1,6 @@
+Kart Game Takeover v2 - moments the clip must show (in order)
+1. [x] Player in a red kart on the grid under a checkered finish gate in Riverwood with fox, elk, chicken, goat rivals in karts; countdown 3-2-1-GO.
+2. [x] The pack launches; orange boost pads set karts on fire-trail turbo ("hit a boost pad!").
+3. [x] Driving through "?" boxes: homing shell hits a rival which spins out and takes damage (seen in an earlier preview, announced in text).
+4. [x] THUNDER BOLT: yellow lightning bolts hang over every rival and zap them at once.
+5. [x] A rival driver dies: "Antler Andy is wrecked!" with the kart burning.

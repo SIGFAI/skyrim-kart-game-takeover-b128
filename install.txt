@@ -1,0 +1,1 @@
+Copy Sigf.esp plus the Scripts, Meshes and Textures folders into Skyrim Special Edition's Data folder and enable Sigf.esp. Load a game near Riverwood: the kart race starts by itself a few seconds later.
