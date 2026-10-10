@@ -1,0 +1,289 @@
+{
+  "id": "sigf/skyrim-kart-game-takeover-b128",
+  "version": "1.0.0",
+  "name": "Kart Game Takeover",
+  "tagline": "Bring Kart Game into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "skyrim",
+      "role": "host",
+      "engine": "Skyrim Special Edition (Creation Engine, Papyrus) + headless plugin builder (Mutagen) + PapyrusCompiler",
+      "apps": {
+        "steam": "489830"
+      }
+    },
+    {
+      "game": "kartgame",
+      "role": "guest",
+      "label": "Kart Game"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "skyrim",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "skyrim-kart-game-takeover-b128.zip",
+          "dst": "{game}/Data",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Meshes/sigf/banana.nif",
+              "sha256": "ef9f5a0e2b731aa612219d1ba63078aa9eb767cbeb9784878966e0ecbfc90010"
+            },
+            {
+              "path": "Meshes/sigf/bolt.nif",
+              "sha256": "13698fc496d038a52f6fec0faba418bf825b9001bfc47765cec7c7bcd7d08e56"
+            },
+            {
+              "path": "Meshes/sigf/gate.nif",
+              "sha256": "a30090a4cb7b7a402d61d702c4dce9b80ff4318faf977b60827f6c411f25b306"
+            },
+            {
+              "path": "Meshes/sigf/kart_blue.nif",
+              "sha256": "0ec3d97aed2922b82fe02000cd111e19cb543a2a43cb25d8f9ff8f2f6ceb789c"
+            },
+            {
+              "path": "Meshes/sigf/kart_gold.nif",
+              "sha256": "702c72247ae35f518945f486e4cae40bdf3fed8e8de83f3b965c986743143b76"
+            },
+            {
+              "path": "Meshes/sigf/kart_green.nif",
+              "sha256": "8cc67990e5c9b28737f1df90ec8a8e403d3ac7d62c4b8cf8718e7722cc24620a"
+            },
+            {
+              "path": "Meshes/sigf/kart_purple.nif",
+              "sha256": "9a193323769c0110abccea506f0715b86f28f5dc8f1fd37c2de91c3e9e3a8003"
+            },
+            {
+              "path": "Meshes/sigf/kart_red.nif",
+              "sha256": "96095ca0e234df5cb73cfa24713bd850a8210a32958277aee074012c68a9eb36"
+            },
+            {
+              "path": "Meshes/sigf/pad.nif",
+              "sha256": "71f1cf35f051384439f3b618e348be5e3d81877ade9baf4bd1e3bd85ead8be5e"
+            },
+            {
+              "path": "Meshes/sigf/qbox.nif",
+              "sha256": "abbab6f80642bcd9588098fc527b0fe21b86aa1e51ca573d039ba471dae20732"
+            },
+            {
+              "path": "Meshes/sigf/shell.nif",
+              "sha256": "0c9db388ad1243e0691396a2721d3c859f7d9d68a2fd6a96ec56652eb5e684b5"
+            },
+            {
+              "path": "Scripts/SigfDemo.pex",
+              "sha256": "99820aad37d625bd4bfce1069d1e0fcffeebf373bb293e4d193da4340eebae6e"
+            },
+            {
+              "path": "Scripts/SigfKit.pex",
+              "sha256": "1bfe195403e581e42c0bdd25aa0b6c9a20e25c116e162bce54472f2533b2ae6d"
+            },
+            {
+              "path": "Scripts/SigfLib.pex",
+              "sha256": "71d449fa50ea92b54edc3a7e5613544fa89c8dde83a0b55079a5fcc7126e37ee"
+            },
+            {
+              "path": "Scripts/SigfMod.pex",
+              "sha256": "52f9f71254be00830aba6ad47ccdce44a525fcf6b278085faaf1b7460e8e0045"
+            },
+            {
+              "path": "Scripts/SigfRacer.pex",
+              "sha256": "597a3cef2ec082f82bf190197bf77f2d00763ac40dbe993126222d34700f542e"
+            },
+            {
+              "path": "Scripts/SigfTrack.pex",
+              "sha256": "56f9195e4cf4f6c84b5859c1da149706c37a3fecf610b33f1e2926b3d319cbd8"
+            },
+            {
+              "path": "Scripts/SigfTracked.pex",
+              "sha256": "1b57867121d01db2e105f374b0953a125270ca91b934120ed7d1082cb8275eb4"
+            },
+            {
+              "path": "Scripts/Source/SigfDemo.psc",
+              "sha256": "34804e37688f8a992c3a320f85932e596a83170e823fcb4eaeace32030fe9a38"
+            },
+            {
+              "path": "Scripts/Source/SigfKit.psc",
+              "sha256": "a3213c96bdb03bbf442024c48db4cb3049cefaec107e123a662a3d7950661934"
+            },
+            {
+              "path": "Scripts/Source/SigfLib.psc",
+              "sha256": "85113ba5b7bff97bd715c28d06a44bca0c657df4033db76b3141b84ce73765f6"
+            },
+            {
+              "path": "Scripts/Source/SigfMod.psc",
+              "sha256": "3d8d9d6dbdc78ac7d118e1ef09dded184a7d16f684bd2695dca7dda1a632f48f"
+            },
+            {
+              "path": "Scripts/Source/SigfRacer.psc",
+              "sha256": "80a749d1daa9d4321016456e872745318da6157b88d4c6dad5362df37cd31b29"
+            },
+            {
+              "path": "Scripts/Source/SigfTrack.psc",
+              "sha256": "3d764f03c362517e5163204c55076fcd4a8d095f606734dfd56a477cc8119c7d"
+            },
+            {
+              "path": "Scripts/Source/SigfTracked.psc",
+              "sha256": "7e2d5a99e164db45eb5eadc8c89b44b0e494ca335b28cae7422f7d3bfa01f305"
+            },
+            {
+              "path": "Sigf.esp",
+              "sha256": "548b74de9cdabbc9c6488de963bf08f6716abab5b166197b0dd18b5b530b9f99"
+            },
+            {
+              "path": "Textures/sigf/banana_y_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/banana_y.dds",
+              "sha256": "ea2677d1cd3178122c5e18adaacc85ea8148ab65a31e029feb21885bba831940"
+            },
+            {
+              "path": "Textures/sigf/bolt_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/bolt.dds",
+              "sha256": "a2c3765f2e45ddf95a0ca52daa71f2327bdbcd0d456b093d29035bf9f780a776"
+            },
+            {
+              "path": "Textures/sigf/boostpad_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/boostpad.dds",
+              "sha256": "b682e4609123d6d3748dda470b51cd31a5aab7f05f08dc9b7776f2758b96b2f6"
+            },
+            {
+              "path": "Textures/sigf/checker_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/checker.dds",
+              "sha256": "a8c40d74e6e6f3d7749c3ea4ddfb8a83a96af5f704a665988869a6a4c8f375cb"
+            },
+            {
+              "path": "Textures/sigf/kart_blue_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/kart_blue.dds",
+              "sha256": "b61d7b185e23ce5f6c4591d3029a91caa54fca03fecdd5de006d67c94f436128"
+            },
+            {
+              "path": "Textures/sigf/kart_chrome_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/kart_chrome.dds",
+              "sha256": "0a880460de58dc26579132ca87f4f9eeb0fd366d3c715495d5eb4a7886ef8043"
+            },
+            {
+              "path": "Textures/sigf/kart_gold_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/kart_gold.dds",
+              "sha256": "dc54e40e88d3ae3d7ca3595be189506de924d3e2aa9a0caeebc8c5790c7795be"
+            },
+            {
+              "path": "Textures/sigf/kart_green_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/kart_green.dds",
+              "sha256": "3e5b12267e9981ec35e14dd7f44dcb0d98241363369a6149eab52e431196c04a"
+            },
+            {
+              "path": "Textures/sigf/kart_purple_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/kart_purple.dds",
+              "sha256": "72e7011e4fa4798941a828eacfa8236db2a9219996e21f51d4485418ddad2a01"
+            },
+            {
+              "path": "Textures/sigf/kart_red_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/kart_red.dds",
+              "sha256": "fd1ad1000a402aafac746097f8199e72834916abd0f8a88ec41a929582e4ef70"
+            },
+            {
+              "path": "Textures/sigf/kart_white_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/kart_white.dds",
+              "sha256": "b2f38aca6192d7e7f585f56792dc100f2d6203414af9bfae5ca26d6815f01148"
+            },
+            {
+              "path": "Textures/sigf/qbox_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/qbox.dds",
+              "sha256": "f8d361b8d18d9a09ddbc94b2b340a7fb72f48d21e171efdbb390db4dfc735fe4"
+            },
+            {
+              "path": "Textures/sigf/shell_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/shell.dds",
+              "sha256": "ab76e9103f31f8d8a463f76824a91e66d731b2d81ee089aa68cf4ab30b1c155d"
+            },
+            {
+              "path": "Textures/sigf/tire_n.dds",
+              "sha256": "94be45c016f3c3bea2f94af34bc7afda070648d00b8e0ddeb05afc7454af0195"
+            },
+            {
+              "path": "Textures/sigf/tire.dds",
+              "sha256": "437b57ca91d168012c70e695364433af442a29c93d53392f8d318cc599d058bb"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/skyrim-kart-game-takeover-b128/releases/download/v1.0.0/skyrim-kart-game-takeover-b128.zip",
+          "sha256": "5a4d3e309c558e02963901750d7d6d9f0882fef788ed2c2f80d3f45202755eb7",
+          "size": 612020
+        }
+      ],
+      "overlay": "Data"
+    }
+  ],
+  "launch": [
+    {
+      "game": "skyrim",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "skyrim-kart-game-takeover-b128.zip",
+      "url": "https://github.com/SIGFAI/skyrim-kart-game-takeover-b128/releases/download/v1.0.0/skyrim-kart-game-takeover-b128.zip",
+      "sha256": "5a4d3e309c558e02963901750d7d6d9f0882fef788ed2c2f80d3f45202755eb7",
+      "size": 612020
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/skyrim-kart-game-takeover-b128",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-10-2bed671a.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "skyrim",
+    "status": "draft"
+  },
+  "built_at": "2026-10-10T12:53:31.726Z"
+}
